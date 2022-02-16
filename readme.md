@@ -51,18 +51,18 @@ Server is running: http://192.168.0.18:8090
 使用 Dockerfile 构建 或者直接 Pull镜像  
 ```shell script
 # dockerfile 构建
-docker build -t hyperlrweb:latest .
+docker build -t hyperlprweb:latest .
 
 # 运行镜像
-docker run -itd --rm -p 8090:8090 --name hyperlrweb hyperlrweb:latest 
+docker run -itd --rm -p 8090:8090 --name hyperlrweb hyperlprweb:latest 
 ```  
 
 ```shell script
 # 从 dockerhub pull
-docker pull litterguy/hyperlrweb:latest
+docker pull litterguy/hyperlprweb:latest
 
 # 运行镜像
-docker run -itd --rm -p 8090:8090 --name hyperlrweb litterguy/hyperlrweb:latest 
+docker run -itd --rm -p 8090:8090 --name hyperlrweb litterguy/hyperlprweb:latest 
 ```  
 这里把容器的8090端口映射到了物理机的8090上，但如果你不喜欢映射，去掉run后面的`-p 8090:8090` 也可以使用docker的IP加`8090`来访问  
 

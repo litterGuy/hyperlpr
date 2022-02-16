@@ -8,7 +8,7 @@
       </a-layout-content>
 
       <a-layout-footer class="footer" style="background-color:transparent;padding:0.2rem">
-        <a href="https://github.com/alisen39/TrWebOCR">hyperlpr-好用开源的离线车牌识别（https://github.com/szad670401/HyperLPR）</a>
+        <a href="https://github.com/litterGuy/hyperlpr">hyperlpr-好用开源的离线车牌识别（https://github.com/szad670401/HyperLPR）</a>
       </a-layout-footer>
     </a-layout>
   </div>
